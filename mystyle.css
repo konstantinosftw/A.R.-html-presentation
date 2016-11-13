@@ -1,0 +1,71 @@
+/*siilin_presentations CSS*/
+
+body {
+	margin: 0
+}
+
+.parallax {
+    min-height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    opacity: 0.75;
+    position: relative;
+}
+
+.parallax p {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	text-align: center;	
+}
+
+.parallax span {
+	text-transform: capitalize;
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+	line-height: 61px;
+}
+
+.textblock {
+	color: white;
+	height: auto;
+	font-size: 20px;
+	min-height: 500px
+	text-align:center;
+	text-align: justify;
+	padding: 50px 80px;
+}
+
+figure {
+	text-align: center
+}
+
+li a:link, li a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+li a:hover, li a:active {
+    text-decoration: underline;
+    color: inherit;
+    font-style: oblique;
+}
+
+#subtitle {
+	letter-spacing: initial;
+	background-color: transparent;
+	color: black; font-weight: bold; 
+	text-shadow: 0 0 10px white
+}
+
+.sublist {
+	list-style-type: lower-alpha;
+}
