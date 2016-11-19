@@ -35,6 +35,7 @@ body {
 }
 
 .textblock {
+	background-color:#466577; 
 	color: white;
 	height: auto;
 	font-size: 20px;
@@ -68,4 +69,56 @@ li a:hover, li a:active {
 
 .sublist {
 	list-style-type: lower-alpha;
+}
+
+#names {
+	top: 75%;
+}
+
+#index {
+	font-size:22px
+}
+
+#ref {
+	text-align: left
+}
+
+#c {
+	background-image: url(files/h2o.jpg);
+}
+
+#c1 {
+	background-image: url(files/dino1.png);
+}
+
+#c2 {
+	background-image: url(files/PokemonGO_feat.jpg);
+}
+
+#c3 {
+	background-image: url(files/mobLearn.png);
+}
+
+#c4 {
+	background-image: url(files/class.jpg);
+}
+
+#c5 {
+	background-image: url(files/chemAR.jpg);
+}
+
+#c6 {
+	background-image: url(files/skull.jpg);
+}
+
+#c7 {
+	background-image: url(files/planets.png);
+}
+
+#c8 {
+	background-image: url(files/girl.jpg);
+}
+
+#c9 {
+	background-image: url(files/references.jpg);
 }
