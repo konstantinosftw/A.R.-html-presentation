@@ -39,7 +39,7 @@ body {
 	color: white;
 	height: auto;
 	font-size: 20px;
-	min-height: 500px
+	min-height: 500px;
 	text-align:center;
 	text-align: justify;
 	padding: 50px 80px;
@@ -80,7 +80,8 @@ li a:hover, li a:active {
 }
 
 #ref {
-	text-align: left
+	text-align: left;
+	word-wrap: break-word;
 }
 
 #c {
@@ -121,4 +122,29 @@ li a:hover, li a:active {
 
 #c9 {
 	background-image: url(files/references.jpg);
+}
+
+@media print{
+	.textblock {
+		color: black;
+	}
+
+	.parallax span {
+		color: black;
+		opacity: 1;
+	}
+
+	.parallax p {
+		position: relative;
+	}
+
+	.parallax {
+		min-height: 70px;
+	}
+
+	a {
+		color: gray;
+		text-decoration: none;
+		font-style: italic;
+	}
 }
